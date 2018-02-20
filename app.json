@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logs1/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#AFEEEE",
+    "navigationBarTitleText": "圣托里尼PLUS",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#FFA500",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs1/logs",
+        "text": "邮件"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "物业管理页面"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "后台管理页面"
+      }
+
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
